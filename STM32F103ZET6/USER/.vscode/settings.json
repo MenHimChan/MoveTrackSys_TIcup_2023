@@ -1,0 +1,35 @@
+{
+    "files.associations": {
+        "led.h": "c",
+        "pwm.h": "c",
+        "usmart.h": "c",
+        "ax12.h": "c",
+        "pulsegenetor.h": "c",
+        "stepmotor.h": "c",
+        "lcd.h": "c",
+        "usart.h": "c",
+        "shell_port.h": "c",
+        "shell_cfg.h": "c",
+        "mcwheel.h": "c",
+        "xunji.h": "c",
+        "fix_point.h": "c"
+    },
+    "MicroPython.executeButton": [
+        {
+            "text": "▶",
+            "tooltip": "运行",
+            "alignment": "left",
+            "command": "extension.executeFile",
+            "priority": 3.5
+        }
+    ],
+    "MicroPython.syncButton": [
+        {
+            "text": "$(sync)",
+            "tooltip": "同步",
+            "alignment": "left",
+            "command": "extension.execute",
+            "priority": 4
+        }
+    ]
+}
